@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-16T21:00:17 IST" name="Suite" finished-at="2020-12-16T21:03:26 IST" duration-ms="188752">
+    <groups>
+    </groups>
+    <test started-at="2020-12-16T21:00:17 IST" name="Test" finished-at="2020-12-16T21:03:26 IST" duration-ms="188752">
+      <class name="testScripts.Home.TC_HomePage_Validation">
+        <test-method is-config="true" signature="oneTimeSetUp()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:00:05 IST" name="oneTimeSetUp" finished-at="2020-12-16T21:00:17 IST" duration-ms="12087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:00:17 IST" name="setUp" finished-at="2020-12-16T21:01:12 IST" duration-ms="54365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:01:12 IST" name="navigate" finished-at="2020-12-16T21:02:05 IST" duration-ms="52941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="testAutombileLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:02:05 IST" name="testAutombileLink" finished-at="2020-12-16T21:02:19 IST" duration-ms="13942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutombileLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:02:19 IST" name="afterMethod" finished-at="2020-12-16T21:02:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAutombileLink status=SUCCESS method=TC_HomePage_Validation.testAutombileLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:02:19 IST" name="navigate" finished-at="2020-12-16T21:02:19 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="testCamperLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:02:19 IST" name="testCamperLink" finished-at="2020-12-16T21:02:21 IST" duration-ms="1962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCamperLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:02:21 IST" name="afterMethod" finished-at="2020-12-16T21:02:21 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCamperLink status=SUCCESS method=TC_HomePage_Validation.testCamperLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:02:21 IST" name="navigate" finished-at="2020-12-16T21:02:22 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="testMotorCycleLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:02:22 IST" name="testMotorCycleLink" finished-at="2020-12-16T21:02:22 IST" duration-ms="39" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Automobile link is not present on Home Page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Automobile link is not present on Home Page expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at testScripts.Home.TC_HomePage_Validation.testMotorCycleLink(TC_HomePage_Validation.java:110)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMotorCycleLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:02:22 IST" name="afterMethod" finished-at="2020-12-16T21:03:21 IST" duration-ms="59191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMotorCycleLink status=FAILURE method=TC_HomePage_Validation.testMotorCycleLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="navigate()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:03:21 IST" name="navigate" finished-at="2020-12-16T21:03:22 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method signature="testTruckLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:03:22 IST" name="testTruckLink" finished-at="2020-12-16T21:03:24 IST" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTruckLink -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:03:24 IST" name="afterMethod" finished-at="2020-12-16T21:03:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTruckLink status=SUCCESS method=TC_HomePage_Validation.testTruckLink()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:03:24 IST" name="tearDown" finished-at="2020-12-16T21:03:26 IST" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="oneTimeTearDown()[pri:0, instance:testScripts.Home.TC_HomePage_Validation@68e965f5]" started-at="2020-12-16T21:03:28 IST" name="oneTimeTearDown" finished-at="2020-12-16T21:03:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+      </class> <!-- testScripts.Home.TC_HomePage_Validation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
